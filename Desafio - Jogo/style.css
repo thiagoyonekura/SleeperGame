@@ -1,0 +1,95 @@
+/* body: Nesta seção, define-se que o texto do corpo do documento HTML será centralizado e haverá uma margem superior de 50 pixels. */
+body {
+  text-align: center;
+  margin-top: 50px;
+}
+/* h1: Título com tamanho de fonte de 60 pixels. */
+h1 {
+  font-size: 60px;
+}
+
+/*id level: terá uma cor de texto #f0f0f0 (um tom claro de cinza),
+ um tamanho de fonte de 30 pixels, negrito (font-weight: bold), e uma margem superior de 20 pixels. */
+#level {
+  color: #f0f0f0;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+ /* id timer: terá um tamanho de fonte de 40 pixels e uma cor de texto #f0f0f0. */
+#timer{
+  font-size: 40px;
+  color: #f0f0f0;
+}
+
+/* Classe .iniciar define um elemento com uma largura de 500 pixels e uma margem superior de 40 pixels. */
+.iniciar{
+  width: 500px;
+  margin-top: 40px;
+
+}
+
+/* Classe .box1:  terá uma cor de fundo preta (#000000), será exibido como um flex container,
+ com os itens justificados igualmente (justify-content: space-evenly), terá uma borda sólida de 1 pixel com cor preta (border: 1px solid #000000),
+  uma margem de 15 pixels no topo e na base e 300 pixels à esquerda e à direita (margin: 15px 300px),
+   e terá um raio de borda de 10 pixels (border-radius: 10px). */
+.box1{
+  background-color: #000000;
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid #000000;
+  margin: 15px 300px;
+  border-radius: 10px;
+}
+
+/* Classe .box2: terá cor de fundo cinza claro (#f0f0f0). Será exibido como um flex container,
+com os itens justificados igualmente (justify-content: space-evenly), terá uma borda sólida de 1 pixel com cor preta (border: 1px solid #000000),
+ uma margem de 300 pixels à esquerda e à direita (margin: 0 300px),
+  e terá um raio de borda de 10 pixels (border-radius: 10px). */ 
+.box2{
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid #000000;
+  margin: 0 300px;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+}
+
+/* id buttons: terá uma margem superior de 20 pixels, uma margem inferior de 20 pixels e uma margem direita de 25 pixels. */
+#buttons {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 25px;
+}
+
+/* Os botões neste código terão uma largura de 50 pixels, uma altura de 50 pixels, uma margem de 5 pixels,
+ um tamanho de fonte de 18 pixels e um raio de borda de 10 pixels. */
+button {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+/* id target: terá um tamanho de fonte de 60 pixels, será exibido em negrito e terá uma margem superior de 20 pixels. */
+#target {
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* id score:  terá um tamanho de fonte de 40 pixels e uma margem inferior de 20 pixels. */
+#score {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+/* id message:  terá um tamanho de fonte de 35 pixels, será exibido em negrito e terá uma margem superior e inferior de 20 pixels cada. */
+#message {
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

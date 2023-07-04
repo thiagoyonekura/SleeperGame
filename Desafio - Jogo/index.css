@@ -1,0 +1,41 @@
+/* Define estilos globais para todos os elementos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* Estilos aplicados ao elemento body da página */
+body {
+  display: flex; /* Transforma o body em um contêiner flexível */
+  justify-content: center; /* Centraliza horizontalmente o conteúdo do 'body' */
+  align-items: center; /* Centraliza verticalmente o conteúdo do body */
+  min-height: 100vh; /* Define uma altura mínima de 100% da altura da viewport (tela) */
+  background-color: #f0f0f0; /* Define a cor de fundo do body como cinza claro (#f0f0f0) */
+}
+
+/* Estilos aplicados à classe box */
+.box {
+  position: relative; /* Define a posição como relativa para posicionar elementos filhos */
+  width: 1300px; /* Largura fixa do elemento box */
+  height: 600px; /* Altura fixa do elemento box */
+  background-color: white; /* Define a cor de fundo do elemento box como branco */
+  border-radius: 10px; /* Define o raio de borda de 10 pixels para criar cantos arredondados */
+  display: flex; /* Transforma o elemento box em um contêiner flexível */
+  justify-content: center; /* Centraliza horizontalmente o conteúdo do box */
+  align-items: center; /* Centraliza verticalmente o conteúdo do box */
+  font-size: 20px; /* Define o tamanho da fonte como 20 pixels */
+}
+
+/* Estilos aplicados à classe inner-box */
+.inner-box {
+  text-align: left; /* Define o alinhamento do texto como à esquerda */
+  margin: auto 255px; /* Define margem automática na parte superior e inferior e 255 pixels na esquerda e direita */
+}
+
+/* Estilos aplicados ao elemento h1 */
+h1 {
+  font-size: 60px; /* Define o tamanho da fonte em 60 pixels */
+  font-weight: bolder; /* Define a espessura da fonte como "bolder" (mais negrito) */
+}
